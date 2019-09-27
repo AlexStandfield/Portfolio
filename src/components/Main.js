@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import ScreenShot1 from '../images/ScreenShot1.png'
+import ScreenShot2 from '../images/ScreenShot2.png'
+import ScreenShot3 from '../images/ScreenShot3.png'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -28,30 +29,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h1 className="major">Skills</h1>
           <span className="image main">
-            <img src={pic01} alt="" />
+            {/* <img src={pic01} alt="" /> */}
           </span>
-          <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+
+          <h2>React - Redux - JavaScript - Node - PostgreSQL - HTML5 - CSS3 - Git</h2>
           {close}
         </article>
 
@@ -62,25 +45,41 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Projects</h2>
+          <h3>Locker Room Chat</h3>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <h4>Landing Page</h4>
+            <img src={ScreenShot1} alt="" />
+            <br/>
+            <h4>Home Page</h4>
+            <img src={ScreenShot2} alt="" />
+            <br/>
+            <h4>Chat</h4>
+            <img src={ScreenShot3} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            The idea behind this app was to allow NFL fans from all over the world to have easy access to talk with eachother. I felt that if teams could post updates on what was going on whether it was an Injury, Trade, Release, etc. and that there were chat rooms attached to those posts it would give fans the ability to talk about the team and game they love. I felt this would especially be helpful for those who don't live close to there favorite teams.
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            For me being a New Englad Patriots fan in Utah I don't have the ability to talk with fans a lot so having an app that gives me the opportunity to do that makes me very excited.
           </p>
+          <button className="icon fa-github">
+              <a
+                href="https://github.com/AlexStandfield/football-chat"
+                > 
+                <span className="label">GitHub</span>
+              </a>
+          </button>
+
+          <button className="icon fa-mouse-pointer">
+            <a href="http://157.245.186.24:8080/#/"
+            >
+              <span className="label">Website</span>
+            </a>
+
+          </button>
+           
+         
           {close}
         </article>
 
@@ -91,18 +90,15 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">About Me</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            When I'm not writing full stack applications I am usually either watching the New Englad Patriots or playing video games. I also love playing sports. Specifically soccer and basketball. I grew up playing competitive soccer where I first developed a strong work ethic and ability to push myself to my very best.
+          </p>
+          <p>
+            I am extremely flexible and feel I can work in most environments. I am eager to learn and ready to contribute in every way that I can.
           </p>
           {close}
         </article>
@@ -115,7 +111,8 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <h3>Phone: 801-368-0547</h3>
+          {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -136,35 +133,37 @@ class Main extends React.Component {
                 <input type="reset" value="Reset" />
               </li>
             </ul>
-          </form>
-          <ul className="icons">
-            <li>
+          </form> */}
+          
+          
+            {/* <li> */}
+              <button className="icon fa-github">
               <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
+                href="https://github.com/AlexStandfield"
+                
               >
                 <span className="label">GitHub</span>
               </a>
-            </li>
-          </ul>
+              </button>
+            {/* </li> */}
+            {/* <li> */}
+            <button className="icon fa-linkedin">
+              <a href="https://codebushi.com" >
+                <span className="label">Linkedin</span>
+              </a>
+              </button>
+              <button className="icon fa-envelope">
+              <a href="mailto:AlexStandfield@gmail.com" >
+                <span className="label">Email</span>
+              </a>
+              </button>
+            {/* </li> */}
+            {/* <li>
+              <a href="" className="icon fa-envelope">
+                <span className="label">Email</span>
+              </a>
+            </li> */}
+        
           {close}
         </article>
       </div>
