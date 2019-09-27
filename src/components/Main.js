@@ -33,8 +33,14 @@ class Main extends React.Component {
           <span className="image main">
             {/* <img src={pic01} alt="" /> */}
           </span>
-
-          <h2>JavaScript - HTML5 - CSS3 - React - Node.js - Express.js - Massive.js - React Redux - PostgreSQL - Gatsby.js - Axios - Bcrypt - Postman - Git - Netlify</h2>
+          <h3 >Languages</h3>
+          <p>JavaScript | HTML5 | CSS3</p>
+          <h3>Frameworks & Libraries</h3>
+          <p>React | Node.js | Express.js | Massive.js | React Redux</p>
+          <h3>Databases</h3>
+          <p>PostgreSQL</p>
+          <h3>Extra Technologies</h3>
+          <p>Gatsby.js | Axios | Bcrypt | Postman | Git | Netlify</p>
           {close}
         </article>
 
