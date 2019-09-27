@@ -34,7 +34,7 @@ class Main extends React.Component {
             {/* <img src={pic01} alt="" /> */}
           </span>
 
-          <h2>React - Redux - JavaScript - Node - PostgreSQL - HTML5 - CSS3 - Git</h2>
+          <h2>React - Redux - JavaScript - Node - PostgreSQL - HTML5 - CSS3 - Git - bcrypt</h2>
           {close}
         </article>
 
