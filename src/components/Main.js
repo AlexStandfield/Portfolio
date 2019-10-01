@@ -36,7 +36,7 @@ class Main extends React.Component {
           <h3 >Languages</h3>
           <p>JavaScript | HTML5 | CSS3</p>
           <h3>Frameworks & Libraries</h3>
-          <p>React | Node.js | Express.js | Massive.js | React Redux</p>
+          <p>React | Node.js | Express.js | Massive.js | React Redux | Jest</p>
           <h3>Databases</h3>
           <p>PostgreSQL</p>
           <h3>Extra Technologies</h3>
