@@ -3,7 +3,7 @@ import React from 'react'
 import ScreenShot1 from '../images/ScreenShot1.png'
 import ScreenShot2 from '../images/ScreenShot2.png'
 import ScreenShot3 from '../images/ScreenShot3.png'
-import pic03 from '../images/pic03.jpg'
+import profilePic from '../images/ProfilePic.png'
 
 class Main extends React.Component {
   render() {
@@ -98,7 +98,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About Me</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={profilePic} alt="" />
           </span>
           <p>
             When I'm not writing full stack applications I am usually either watching the New Englad Patriots or playing video games. I also love playing sports. Specifically soccer and basketball. I grew up playing competitive soccer where I first developed a strong work ethic and ability to push myself to my very best.
