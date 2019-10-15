@@ -71,15 +71,13 @@ class Main extends React.Component {
           </p>
           <button className="icon fa-github">
               <a
-                href="https://github.com/AlexStandfield/football-chat"
-                > 
+                href="https://github.com/AlexStandfield/football-chat" target='_blank'> 
                 <span className="label">GitHub</span>
               </a>
           </button>
 
           <button className="icon fa-mouse-pointer">
-            <a href="http://157.245.186.24:8080/#/"
-            >
+            <a href="http://157.245.186.24:8080/#/" target='_blank' >
               <span className="label">Website</span>
             </a>
 
@@ -145,16 +143,14 @@ class Main extends React.Component {
             {/* <li> */}
               <button className="icon fa-github">
               <a
-                href="https://github.com/AlexStandfield"
-                
-              >
+                href="https://github.com/AlexStandfield" target='_blank' >
                 <span className="label">GitHub</span>
               </a>
               </button>
             {/* </li> */}
             {/* <li> */}
             <button className="icon fa-linkedin">
-              <a href="https://codebushi.com" >
+              <a href="https://www.linkedin.com/in/alex-standfield-152664194/" target='_blank' >
                 <span className="label">Linkedin</span>
               </a>
               </button>
