@@ -51,7 +51,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>
+          <h2 className="major">Portfolio</h2>
           <h3>Locker Room Chat</h3>
           <span className="image main">
             <h4>Landing Page</h4>
