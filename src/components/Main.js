@@ -3,6 +3,12 @@ import React from 'react'
 import ScreenShot1 from '../images/ScreenShot1.png'
 import ScreenShot2 from '../images/ScreenShot2.png'
 import ScreenShot3 from '../images/ScreenShot3.png'
+import ScreenShot4 from '../images/ScreenShot4.png'
+import ScreenShot5 from '../images/ScreenShot5.png'
+import ScreenShot6 from '../images/ScreenShot6.png'
+import ScreenShot7 from '../images/ScreenShot7.png'
+import ScreenShot8 from '../images/ScreenShot8.png'
+import ScreenShot9 from '../images/ScreenShot9.png'
 import profilePic from '../images/ProfilePic.png'
 
 class Main extends React.Component {
@@ -78,6 +84,49 @@ class Main extends React.Component {
 
           <button className="icon fa-mouse-pointer">
             <a href="http://157.245.186.24:8080/#/" target='_blank' >
+              <span className="label">Website</span>
+            </a>
+
+          </button>
+
+          <br/>
+          <br />
+          <br />
+
+          <h3>Oil Change Project</h3>
+          <span className="image main">
+            <h4>Landing Page</h4>
+            <img src={ScreenShot4} alt="" />
+            <br/>
+            <h4>Log In Page</h4>
+            <img src={ScreenShot5} alt="" />
+            <br/>
+            <h4>Register Page</h4>
+            <img src={ScreenShot6} alt="" />
+            <h4>Car Page</h4>
+            <img src={ScreenShot7} alt="" />
+            <h4>Payment Page</h4>
+            <img src={ScreenShot8} alt="" />
+            <h4>Instructions Page</h4>
+            <img src={ScreenShot9} alt="" />
+
+
+          </span>
+          <p>
+            For this project the problem of forgetting your oil change is solved! Instead of having to drop your car off and wait for what feels like forever this app will allow a certified driver to be able to pick up your car and take it to be serviced while you sit in the comfort of your home or while at work.
+          </p>
+          <p>
+            I loved working on this app cause it was my first time working with a team. I learned so much about myself as a developer and learned even more form my team members.
+          </p>
+          <button className="icon fa-github">
+              <a
+                href="https://github.com/Oil-Change/GroupProject" target='_blank'> 
+                <span className="label">GitHub</span>
+              </a>
+          </button>
+
+          <button className="icon fa-mouse-pointer">
+            <a href="http://157.245.241.75:5555/#/" target='_blank' >
               <span className="label">Website</span>
             </a>
 
