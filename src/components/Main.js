@@ -46,7 +46,7 @@ class Main extends React.Component {
           <h3>Databases</h3>
           <p>PostgreSQL</p>
           <h3>Extra Technologies</h3>
-          <p>Gatsby.js | Axios | Bcrypt | Postman | Git | Netlify</p>
+          <p>Gatsby.js | Axios | Bcrypt | Postman | Git | Netlify | Sass</p>
           {close}
         </article>
 
@@ -81,6 +81,9 @@ class Main extends React.Component {
                 <span className="label">GitHub</span>
               </a>
           </button>
+
+          <br/>
+          <br/>
 
           <button className="icon fa-mouse-pointer">
             <a href="http://157.245.186.24:8080/#/" target='_blank' >
@@ -118,12 +121,16 @@ class Main extends React.Component {
           <p>
             I loved working on this app cause it was my first time working with a team. I learned so much about myself as a developer and learned even more form my team members.
           </p>
+          
           <button className="icon fa-github">
               <a
                 href="https://github.com/Oil-Change/GroupProject" target='_blank'> 
                 <span className="label">GitHub</span>
               </a>
           </button>
+
+          <br/>
+          <br/>
 
           <button className="icon fa-mouse-pointer">
             <a href="http://157.245.241.75:5555/#/" target='_blank' >
@@ -190,12 +197,14 @@ class Main extends React.Component {
           
           
             {/* <li> */}
-              <button className="icon fa-github">
+              <button className="icon fa-github" >
               <a
                 href="https://github.com/AlexStandfield" target='_blank' >
                 <span className="label">GitHub</span>
               </a>
               </button>
+              <br/>
+              <br/>
             {/* </li> */}
             {/* <li> */}
             <button className="icon fa-linkedin">
@@ -203,6 +212,10 @@ class Main extends React.Component {
                 <span className="label">Linkedin</span>
               </a>
               </button>
+
+              <br/>
+              <br/>
+
               <button className="icon fa-envelope">
               <a href="mailto:AlexStandfield@gmail.com" >
                 <span className="label">Email</span>
